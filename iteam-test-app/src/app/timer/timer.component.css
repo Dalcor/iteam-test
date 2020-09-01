@@ -1,0 +1,26 @@
+div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-size: 32px;
+}
+
+button {
+    border-radius: 4px;
+    background-color: #E19C47;
+    border: 0;
+    outline: 0;
+    width: 190px;
+    height: 40px;
+    margin: 15px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #E17147;
+    transform: scale(1.1);
+    transition-duration: 0.4s;
+}
